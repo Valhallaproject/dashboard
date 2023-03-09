@@ -1,0 +1,29 @@
+.home{
+    color: var(--white);
+    padding-top: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+.overwievs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width :1700px){
+    
+}
+
+@media screen and (max-width: 850px) {
+    .cards{
+        flex-wrap: wrap;
+    }
+    .overwievs{
+        flex-wrap: wrap;
+    }
+    
+}

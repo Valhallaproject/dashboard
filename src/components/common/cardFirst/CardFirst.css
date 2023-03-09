@@ -1,0 +1,74 @@
+.cardFirst {
+  margin-top: 25px;
+  width: 24%;
+  aspect-ratio: 4 / 3;
+  background-color: var(--darkBlue);
+  text-align: center;
+  border-radius: 6px;
+  color: var(--desaturatedBlue);
+}
+
+.cardFirst img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.cadrFirstName{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nbFollowers{
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  color: var(--white);
+}
+.followers{
+  letter-spacing: 5px;
+}
+.followToday{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.followToday img{
+  width: 10px;
+  height: 7px;
+}
+.up{
+  color: var(--limeGreen);
+}
+.down{
+  color: var(--brightRed);
+}
+.facebook {
+  border-top: 4px solid var(--facebook);
+}
+
+.twitter {
+  border-top: 4px solid var(--twitter);
+}
+
+.instagram {
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-image: var(--instagram);
+}
+
+.youtube {
+  border-top: 4px solid var(--youtube);
+}
+
+@media screen and (max-width: 850px) {
+  .cardFirst {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cardFirst {
+    width: 100%;
+  }
+}

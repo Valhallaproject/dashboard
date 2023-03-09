@@ -1,0 +1,48 @@
+body {
+  margin: 0 auto;
+  margin-top: 0 !important;
+  padding: 0;
+}
+.App {
+  background-color: var(--veryDarkBlue);
+  min-height: 100vh;
+  transition: all .2s;
+  padding: 0 15%;
+}
+:root{
+  --veryDarkBlue: #ffffff;
+  --darkBlue: #f5f7ff;
+  --darkDesaturatedBlue: #f0f2fa;
+  --desaturatedBlue: #63687e;
+  --white: #1e202a;
+  --toggle: #aeb3cb;
+  --limeGreen: #1db489;
+  --brightRed: #dc414c;
+  --facebook: #198ff5;
+  --twitter: #1ca0f2;
+  --instagram: linear-gradient(to right, #fdc468, #df4996) 1;
+  --youtube: #c4032a;
+
+}
+[data-theme='dark']{
+  --toggle: linear-gradient(to right, #378fe6, #3eda82) ;
+  --veryDarkBlue: #1e202a;
+  --darkBlue: #1B2034;
+  --darkDesaturatedBlue: #252a41;
+  --desaturatedBlue: #8b97c6;
+  --white: #ffffff;
+  --limeGreen: #1db489;
+  --brightRed: #dc414c;
+  --facebook: #198ff5;
+  --twitter: #1ca0f2;
+  --instagram: linear-gradient(to right, #fdc468, #df4996) 1;
+  --youtube: #c4032a;
+
+}
+
+@media screen and (max-width: 1600px) {
+  .App{
+    padding: 0 5%;
+  }
+  
+}

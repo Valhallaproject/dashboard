@@ -1,0 +1,13 @@
+.header {
+  color: var(--white);
+}
+.header p{
+  color: var(--desaturatedBlue);
+}
+
+@media screen and (max-width: 400px) {
+  .header h1{
+    font-size: 1.5em;
+  }
+  
+}

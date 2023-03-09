@@ -1,0 +1,48 @@
+.overwievCard {
+  width: 24%;
+  aspect-ratio: 16 / 7;
+  margin-top: 20px;
+  background-color: var(--darkBlue);
+  text-align: center;
+  border-radius: 10px;
+  color: var(--desaturatedBlue);
+}
+.info, .number{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.result{
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--white);
+}
+.percent{
+  display: flex;
+  align-items: center;
+}
+.percent img{
+  margin-right: 5px;
+}
+.percentUp{
+  color: var(--limeGreen);
+}
+.percentDown{
+  color: var(--brightRed);
+}
+.info img{
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .overwievCard {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .overwievCard {
+    width: 100%;
+  }
+}
